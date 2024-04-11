@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Convertisseur de Devises</title>
+<link rel="stylesheet" href="../CSS/creer_un_convertisseur_de_monnaies.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Convertisseur de Devises</h2>
+    <div>
+        <label for="amount">Montant:</label>
+        <input type="number" id="amount">
+    </div>
+    <div>
+        <label for="from">De:</label>
+        <select id="from">
+            <option value="CAD">CAD</option>
+            <option value="EUR">EUR</option>
+            <option value="USD">USD</option>
+        </select>
+    </div>
+    <div>
+        <label for="to">À:</label>
+        <select id="to">
+            <option value="CAD">CAD</option>
+            <option value="EUR">EUR</option>
+            <option value="USD">USD</option>
+        </select>
+    </div>
+    <button onclick="convert()">Convertir</button>
+    <div id="result"></div>
+</div>
+
+<script src="../JS/creer_un_convertisseur_de_monnaies.js"></script>
+</body>
+</html>
