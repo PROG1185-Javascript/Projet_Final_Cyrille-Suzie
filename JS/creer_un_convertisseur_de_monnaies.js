@@ -1,3 +1,4 @@
+// Conversion function 
 function convert() {
     var amountInput = document.getElementById('amount');
     var fromSelect = document.getElementById('from');

@@ -1,4 +1,4 @@
-
+// creation des variables de lancement du compteur
 let h2 = document.querySelector("h2");
 let btnCinq = document.querySelector(".cinq");
 let btnVingt = document.querySelector(".vingt");
@@ -7,6 +7,7 @@ let start = document.querySelector(".start");
 
 h2.innerHTML = 0;
 
+// Fonction qui va permettre le lancement et la decrementation des chiffres de notre compte a rebours
 btnCinq.addEventListener("click", function() {
     h2.innerHTML = 5;
 });

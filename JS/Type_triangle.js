@@ -1,3 +1,4 @@
+ // prend la valeur de chaque côtés du triangle
 function determineTriangleType() {
     var side1 = parseFloat(document.getElementById("side1").value);
     var side2 = parseFloat(document.getElementById("side2").value);
@@ -5,7 +6,7 @@ function determineTriangleType() {
 
     var resultElement = document.getElementById("result");
     var result = "";
-
+ // Verifie la longueur de chaque côtés et renvoie le type
     if (side1 + side2 > side3 && side1 + side3 > side2 && side2 + side3 > side1) {
         if (side1 === side2 && side2 === side3) {
             result = "Le triangle est équilatéral";
